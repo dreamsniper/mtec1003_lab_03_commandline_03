@@ -175,18 +175,20 @@ bash: more: command not found
 (Some characteristics that may help your description might be the length of the file, whether or not you'd like to read the whole thing... or just the beginning or end, etc.)
 ----------
 
-
+Less allows you to view a file using pagination, more does the same thing as less, cat is used when you want to see the whole file, tail is if you would like only the last part of a file and Head would be used if you are trying to only see the beggining of a large file.
 
 ==========
 21.  How many words are in pg1232.txt?  What command did you use to determine the word count?
 ----------
 
-
+wc -w books/other/pg1232.txt
+52639 books/other/pg1232.txt
 
 ==========
 22.  How many lines are in pg1232.txt?  What command did you use to determine the line count?
 ----------
-
+wc -l books/other/pg1232.txt
+5063 books/other/pg1232.txt
 
 ==========
 23.  Make sure you're in the books/other folder.  Copy all of the txt files from that folder to your home directory using wildcard matching.
